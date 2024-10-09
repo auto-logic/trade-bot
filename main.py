@@ -50,7 +50,7 @@ def get_error(e):
 
 @app.on_event("startup")
 async def startup():
-    log_message(f"POABOT 실행 완료! - 버전:{VERSION}")
+    log_message(f"TRADEBOT 실행 완료! - 버전:{VERSION}")
 
 
 @app.on_event("shutdown")
