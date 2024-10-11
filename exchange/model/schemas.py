@@ -5,7 +5,7 @@ from pathlib import Path
 from enum import Enum
 from devtools import debug
 
-CRYPTO_LITERAL = Literal["BINANCE", "UPBIT", "BYBIT", "BITGET", "OKX"]
+CRYPTO_LITERAL = Literal["BINANCE", "UPBIT", "BYBIT", "BITGET", "OKX", "TAPBIT"]
 
 
 STOCK_LITERAL = Literal[
@@ -22,6 +22,7 @@ EXCHANGE_LITERAL = Literal[
     "BYBIT",
     "BITGET",
     "OKX",
+    "TAPBIT",
     "KRX",
     "NASDAQ",
     "NYSE",
@@ -56,7 +57,7 @@ def find_env_file():
 env_path = find_env_file()
 
 
-CRYPTO_EXCHANGES = ("BINANCE", "UPBIT", "BYBIT", "BITGET", "OKX")
+CRYPTO_EXCHANGES = ("BINANCE", "UPBIT", "BYBIT", "BITGET", "OKX", "TAPBIT")
 
 STOCK_EXCHANGES = (
     "KRX",
